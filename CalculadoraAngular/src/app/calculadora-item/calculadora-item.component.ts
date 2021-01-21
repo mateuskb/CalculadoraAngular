@@ -118,6 +118,8 @@ export class CalculadoraItemComponent implements OnInit {
       return value1 * value2;
     } else if(ope == "/"){
       return value1 / value2;
+    } else {
+      return false;
     }
   }
 
